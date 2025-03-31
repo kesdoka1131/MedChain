@@ -37,8 +37,10 @@ MedChain is a decentralized prescription management system using **blockchain** 
 ```terminal
 git clone https://github.com/kesdoka1131/MedChain.git
 cd MedChain
+```
 
-react-router-dom version
+### 2. **react-router-dom version**
+```
 npm install react-router-dom@5.3.4                                
 
 
