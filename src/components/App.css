@@ -1,0 +1,92 @@
+/* Styles go here */
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  flex-direction: column;
+  background-color: #f0f4f8; /* Light background color */
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px; /* Further increased width */
+  margin: 0 auto;
+  padding: 50px; /* Increased padding */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for better emphasis */
+}
+
+h2 {
+  font-size: 2rem; /* Larger font size for headings */
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px; /* Add space below the form */
+}
+
+form input[type="text"],
+form input[type="file"] {
+  width: 100%;
+  max-width: 600px; /* Limit input width */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 8px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px; /* Add space above the button */
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px; /* Added margin for spacing */
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+input::placeholder {
+  color: #888888;
+}
+
+p {
+  font-size: 1rem;
+  color: #555555;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}

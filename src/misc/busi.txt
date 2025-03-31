@@ -1,0 +1,43 @@
+pragma solidity >=0.4.21 <0.6.0;
+
+contract Business {
+    struct Prescription {
+        string prescriptionHash;
+        string patientId;
+        string doctorName;
+        uint256 timestamp;
+    }
+
+    Prescription public prescription;
+
+    function set(
+        string memory _prescriptionHash,
+        string memory _patientId,
+        string memory _doctorName
+    ) public {
+        prescription = Prescription({
+            prescriptionHash: _prescriptionHash,
+            patientId: _patientId,
+            doctorName: _doctorName,
+            timestamp: block.timestamp
+        });
+    }
+
+    function get()
+        public
+        view
+        returns (
+            string memory,
+            string memory,
+            string memory,
+            uint256
+        )
+    {
+        return (
+            prescription.prescriptionHash,
+            prescription.patientId,
+            prescription.doctorName,
+            prescription.timestamp
+        );
+    }
+}

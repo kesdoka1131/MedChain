@@ -1,0 +1,193 @@
+/* src/components/LandingPage.css */
+
+.landing-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #4caf50, #2c3e50);
+  color: #fff;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  line-height: 1.8;
+}
+
+.get-started-btn {
+  padding: 15px 35px;
+  background: #ff9800; /* Orange button */
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background: #e68a00; /* Darker orange */
+}
+
+.features-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.features-section p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Scrollable container */
+.card-scroll-container {
+  overflow-x: auto; /* Horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping */
+  padding-bottom: 20px;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Inner container for the cards */
+.card-container {
+  display: inline-flex;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+/* Individual cards */
+.card {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  transition: transform 0.3s;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  color: #004aad;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Scrollbar styling */
+.card-scroll-container::-webkit-scrollbar {
+  height: 12px;
+}
+
+.card-scroll-container::-webkit-scrollbar-thumb {
+  background: #004aad; /* Blue scrollbar */
+  border-radius: 10px;
+}
+
+.card-scroll-container::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 80px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.how-it-works ol {
+  list-style: none;
+  padding: 0;
+  counter-reset: step;
+}
+
+.how-it-works li {
+  font-size: 1.2rem;
+  margin: 30px 0;
+  position: relative;
+  padding-left: 40px;
+  color: #555;
+}
+
+.how-it-works li:before {
+  content: counter(step);
+  counter-increment: step;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #004aad;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #2c3e50; /* Dark footer */
+  color: #fff;
+  font-size: 1rem;
+}
+
+.footer a {
+  color: #ff9800;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #e68a00;
+}
