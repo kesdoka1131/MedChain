@@ -37,3 +37,12 @@ MedChain is a decentralized prescription management system using **blockchain** 
 ```terminal
 git clone https://github.com/kesdoka1131/MedChain.git
 cd MedChain
+
+```
+---
+
+## Screenshots
+![Landing Page 1](https://github.com/user-attachments/assets/d996d967-94d5-4e3d-96b1-6d32e92b42f9)
+![Landing Page 2](https://github.com/user-attachments/assets/9f048421-f6a3-4f49-a44c-f248a212984f)
+![MedChain.App](https://github.com/user-attachments/assets/ac3d7278-db90-4e58-95d5-983a645fabcb)
+
