@@ -93,9 +93,8 @@ class App extends Component {
     const formData = new FormData();
     formData.append("file", this.state.file);
 
-    const pinataApiKey = "63087f7888a9fe5dfb7d";
-    const pinataSecretApiKey =
-      "f20599a3ddf5275e838e614a6699f0fe154c4e131e49e8459bbe6e5d664d8e10";
+    const pinataApiKey = "PINIATA_API_KEY";
+    const pinataSecretApiKey = "PINIATA_SECRET_API_KEY";
 
     try {
       const response = await axios.post(
