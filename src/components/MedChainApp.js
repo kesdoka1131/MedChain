@@ -103,8 +103,8 @@ class App extends Component {
         {
           headers: {
             "Content-Type": "multipart/form-data",
-            pinata_api_key: pinataApiKey,
-            pinata_secret_api_key: pinataSecretApiKey,
+            pinata_api_key: PINIATA_API_KEY,
+            pinata_secret_api_key: PINIATA_SECRET_API_KEY,
           },
         }
       );
