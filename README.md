@@ -25,7 +25,7 @@ MedChain is a decentralized prescription management system using **blockchain** 
 ## Tech Stack
 - **Frontend:** React.js, CSS, React Router  
 - **Backend:** Solidity (Smart Contracts)  
-- **Blockchain:** Ethereum (Ganache), Web3.js  
+- **Blockchain:** Ethereum (Ganache), Truffle, Web3.js  
 - **File Storage:** IPFS (Pinata)  
 - **Wallet:** MetaMask  
 
