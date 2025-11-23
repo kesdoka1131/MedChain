@@ -68,11 +68,17 @@ npm install react-router-dom@5.3.4
 ![Landing Page 2](https://github.com/user-attachments/assets/9f048421-f6a3-4f49-a44c-f248a212984f)
 
 ![MedChain.App](https://github.com/user-attachments/assets/ac3d7278-db90-4e58-95d5-983a645fabcb)
+
+![Adding Records](https://github.com/user-attachments/assets/597cd5f1-fd65-47bc-9825-d75af7636c59)
+![Retrieving logs](https://github.com/user-attachments/assets/92a2c0dc-52e3-4663-9a35-ae86c413feb7)
+
 ---
 ## Proposed System Architecture
 <img width="2000" height="1414" alt="IPFS (1)" src="https://github.com/user-attachments/assets/db0adde0-61d5-4722-82ef-58a44ba5f015" />
 
 ---
+
+
 ## Published-Paper
 [Download](https://github.com/user-attachments/files/23698360/splnproc2311.pdf)
 
