@@ -1,19 +1,36 @@
-# MedChain - Blockchain-Powered Prescription Management
-
 MedChain is a decentralized prescription management system using **blockchain** and **IPFS** to securely store and verify patient prescriptions. It ensures **transparency, security, and trust** in medical data management.
 ---
 
 ## Table of Contents
+- [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Screenshots](#screenshots)
+- [Proposed System Architecture](#proposed-system-architecture)
+- [Published-Paper](#published-paper)
+---
+
+## Overview
+
+Traditional prescription handling is prone to:
+
+- **Loss or tampering** of paper prescriptions  
+- **Difficulty in verifying authenticity**  
+- **Fragmented records** across multiple hospitals and clinics  
+
+MedChain solves this by:
+
+- Storing **prescription metadata on Ethereum** (immutable and verifiable)
+- Storing **actual files on IPFS** (decentralized off-chain storage)
+- Using **MetaMask** + **Web3.js** for secure interaction from the browser
+- Providing a clean **React UI** with a scrolling card layout to highlight transparency and security
 
 
 ---
 
 ## Features
-✅ Immutable prescription storage on blockchain  
+✅ Immutable prescription records on blockchain  
 ✅ Secure file upload using **IPFS**  
 ✅ Access logs using patient ID  
 ✅ MetaMask integration for authentication  
@@ -43,12 +60,24 @@ cd MedChain
 ```
 npm install react-router-dom@5.3.4                                
 
-
 ```
 ---
 
 ## Screenshots
 ![Landing Page 1](https://github.com/user-attachments/assets/d996d967-94d5-4e3d-96b1-6d32e92b42f9)
 ![Landing Page 2](https://github.com/user-attachments/assets/9f048421-f6a3-4f49-a44c-f248a212984f)
-![MedChain.App](https://github.com/user-attachments/assets/ac3d7278-db90-4e58-95d5-983a645fabcb)
 
+![MedChain.App](https://github.com/user-attachments/assets/ac3d7278-db90-4e58-95d5-983a645fabcb)
+---
+## Proposed System Architecture
+<img width="2000" height="1414" alt="IPFS (1)" src="https://github.com/user-attachments/assets/db0adde0-61d5-4722-82ef-58a44ba5f015" />
+
+---
+## Published-Paper
+[Download](https://github.com/user-attachments/files/23698360/splnproc2311.pdf)
+
+
+## 🤝 Contributors
+
+* **Keshav Dokania** - [GitHub Profile](https://github.com/kesdoka1131)
+* **Manya Srivastava** -.[GitHub Profile](https://github.com/Manyasrivastava01)
