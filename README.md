@@ -66,10 +66,15 @@ npm install react-router-dom@5.3.4
 ## Screenshots
 ![Landing Page 1](https://github.com/user-attachments/assets/d996d967-94d5-4e3d-96b1-6d32e92b42f9)
 ![Landing Page 2](https://github.com/user-attachments/assets/9f048421-f6a3-4f49-a44c-f248a212984f)
+![Landing Page 3](https://github.com/user-attachments/assets/9ec66d6c-f0a3-4cb4-ba59-64addddf71a5)
+
 
 ![MedChain.App](https://github.com/user-attachments/assets/ac3d7278-db90-4e58-95d5-983a645fabcb)
 
+Uploading prescription to blockchain via Metamask authentication
 ![Adding Records](https://github.com/user-attachments/assets/597cd5f1-fd65-47bc-9825-d75af7636c59)
+
+Prescription retrieved from blockchain (returns IPFS HASH)
 ![Retrieving logs](https://github.com/user-attachments/assets/92a2c0dc-52e3-4663-9a35-ae86c413feb7)
 
 ---
